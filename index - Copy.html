@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Energy & Transportation Across Connecticut</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<h1>Energy & Transportation Across Connecticut</h1>
+
+<div id="buttontable">
+<div>
+    <div id="buttonlabel">Commuter Parks:</div>
+    <div class="toggle-button">
+        <button id="comParks"></button>
+    </div>
+</div>
+
+<div>
+    <div id="buttonlabel">Gas Stations:</div>
+    <div class="toggle-button">
+        <button id="gasStations"></button>
+    </div>
+</div>
+
+<div>
+    <div id="buttonlabel">EV Charging Stations:</div>
+    <div class="toggle-button">
+        <button id="evCharging"></button>
+    </div>
+</div>
+
+<div>
+    <div id="buttonlabel">Bus Stops:</div>
+    <div class="toggle-button">
+        <button id="busStops"></button>
+    </div>
+</div>
+
+<div>
+    <div id="buttonlabel">Railroad Stations:</div>
+    <div class="toggle-button">
+        <button id="rrStations"></button>
+    </div>
+</div>
+</div>
+
+<!-- jQuery -->
+<div id="mapholder">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<!-- Google Map Script Files -->
+<div id="map"></div>
+<script src="map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDss6VArLUBH95t5VdRyOQ8WxRGvu5h5ds&libraries=visualization&callback=initMap"></script>
+
+<script src="buttons.js"></script>
+
+<script src="data.js"></script>
+
+<!-- Google Map Script Files -->
+<script src="chart.js"></script>
+</div>
+</body>
+</html>

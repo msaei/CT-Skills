@@ -1,0 +1,16 @@
+
+commuter park & ride lots
+https://data.ct.gov/api/views/xf58-9cbu/rows.json
+
+ct transit bus stops
+https://data.hartford.gov/api/views/uxtm-zebz/rows.json
+
+EV Charging Stations
+https://data.ct.gov/api/views/d2yg-9hwe/rows.json
+
+railroad stations
+https://data.ct.gov/api/views/cd53-hypt/rows.json
+
+Gasoline stations with generator hookups
+https://data.ct.gov/api/views/ygv8-nqdq/rows.json
+

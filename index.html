@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Energy & Transportation Across Connecticut</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<h1>Energy & Transportation Across Connecticut</h1>
+
+<div id="buttontable">
+<div>
+    <div id="buttonlabel">Commuter Parks:</div>
+    <div class="toggle-button" onclick="toggleComParkMap()">
+        <button id="comParks"></button>
+    </div>
+</div>
+
+<div>
+    <div id="buttonlabel">Gas Stations w/Generators:</div>
+    <div class="toggle-button" onclick="toggleGasMap()">
+        <button id="gasStations"></button>
+    </div>
+</div>
+
+<div>
+    <div id="buttonlabel">EV Charging Stations:</div>
+    <div class="toggle-button" onclick="toggleChargeMap()">
+        <button id="evCharging"></button>
+    </div>
+</div>
+
+<div>
+    <div id="buttonlabel">Bus Stops:</div>
+    <div class="toggle-button" onclick="toggleBusStopsMap()">
+        <button id="busStops"></button>
+    </div>
+</div>
+
+<div>
+    <div id="buttonlabel">Railroad Stations:</div>
+    <div class="toggle-button" onclick="toggleRRMap()">
+        <button id="rrStations"></button>
+    </div>
+</div>
+</div>
+
+<!-- jQuery -->
+<div id="mapholder">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+<!-- Google Map Script Files -->
+<div id="map"></div>
+<script src="map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDss6VArLUBH95t5VdRyOQ8WxRGvu5h5ds&libraries=visualization&callback=initMap"></script>
+
+<script src="buttons.js"></script>
+
+<script src="data.js"></script>
+
+<!-- Google Map Script Files -->
+<script src="chart.js"></script>
+</div>
+
+<div id="sources">
+<p>Commuter Park & Ride Lots</p>
+<p><a href="https://data.ct.gov/Transportation/Map-of-Commuter-Park-and-Ride-Lots/q37v-bj6t">https://data.ct.gov/Transportation/Map-of-Commuter-Park-and-Ride-Lots/q37v-bj6t</a></p>
+
+<p>CT Transit Bus Stops</p>
+<p><a href="https://data.hartford.gov/Community/CT-Transit-Bus-Stops/uxtm-zebz">https://data.hartford.gov/Community/CT-Transit-Bus-Stops/uxtm-zebz</a></p>
+
+<p>EV Charging Stations</p>
+<p><a href="https://data.ct.gov/Transportation/Map-of-Electric-Vehicle-Charging-Stations/d2yg-9hwe">https://data.ct.gov/Transportation/Map-of-Electric-Vehicle-Charging-Stations/d2yg-9hwe</a></p>
+
+<p>Railroad Stations</p>
+<p><a href="https://data.ct.gov/Transportation/Railroad-Stations/j7r7-bpkr">https://data.ct.gov/Transportation/Railroad-Stations/j7r7-bpkr</a></p>
+
+<p>Gasoline Stations With Generator Hookups</p>
+<p><a href="https://data.ct.gov/Transportation/Map-of-Gasoline-Stations-with-Generator-Hookups/ygv8-nqdq">https://data.ct.gov/Transportation/Map-of-Gasoline-Stations-with-Generator-Hookups/ygv8-nqdq</a></p>
+</div>
+</body>
+</html>

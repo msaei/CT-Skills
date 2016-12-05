@@ -1,0 +1,2035 @@
+{
+    "meta": {
+        "view": {
+            "id": "zzzz-zzzz",
+            "name": "Map of Gasoline Stations with Generator Hookups",
+            "attribution": "Department of Consumer Protection",
+            "averageRating": 0,
+            "category": "Transportation",
+            "description": "This is dataset is a listing of gasoline stations in Connecticut with backup generator power supple. This list is based on a survey done by the Department of Consumer Protection, therefore it may not be an exhaustive list of all stations with backup generators.",
+            "displayType": "map",
+            "downloadCount": 0,
+            "hideFromCatalog": false,
+            "hideFromDataJson": false,
+            "indexUpdatedAt": 1454713138,
+            "licenseId": "PUBLIC_DOMAIN",
+            "moderationStatus": true,
+            "newBackend": false,
+            "numberOfComments": 0,
+            "oid": 0,
+            "publicationAppendEnabled": false,
+            "publicationStage": "published",
+            "rowsUpdatedAt": 1454710843,
+            "rowsUpdatedBy": "cvy9-n6sb",
+            "tableId": 7800413,
+            "totalTimesRated": 0,
+            "viewCount": 0,
+            "viewType": "tabular",
+            "columns": [
+                {
+                    "id": -1,
+                    "name": "sid",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":sid",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "id",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":id",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "position",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":position",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "created_at",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":created_at",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "created_meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":created_meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "updated_at",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":updated_at",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "updated_meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":updated_meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": -1,
+                    "name": "meta",
+                    "dataTypeName": "meta_data",
+                    "fieldName": ":meta",
+                    "position": 0,
+                    "renderTypeName": "meta_data",
+                    "format": {},
+                    "flags": [
+                        "hidden"
+                    ]
+                },
+                {
+                    "id": 241298754,
+                    "name": "RGD",
+                    "dataTypeName": "number",
+                    "fieldName": "rgd",
+                    "position": 1,
+                    "renderTypeName": "number",
+                    "tableColumnId": 20601083,
+                    "width": 136,
+                    "format": {}
+                },
+                {
+                    "id": 241298755,
+                    "name": "Business Name",
+                    "dataTypeName": "text",
+                    "fieldName": "business_name",
+                    "position": 2,
+                    "renderTypeName": "text",
+                    "tableColumnId": 20601084,
+                    "width": 256,
+                    "format": {}
+                },
+                {
+                    "id": 241298756,
+                    "name": "Generator",
+                    "dataTypeName": "text",
+                    "fieldName": "generator",
+                    "position": 3,
+                    "renderTypeName": "text",
+                    "tableColumnId": 20601085,
+                    "width": 208,
+                    "format": {}
+                },
+                {
+                    "id": 241298757,
+                    "name": "Location 1",
+                    "dataTypeName": "location",
+                    "fieldName": "location_1",
+                    "position": 4,
+                    "renderTypeName": "location",
+                    "tableColumnId": 20601086,
+                    "width": 220,
+                    "format": {},
+                    "subColumnTypes": [
+                        "human_address",
+                        "latitude",
+                        "longitude",
+                        "machine_address",
+                        "needs_recoding"
+                    ]
+                }
+            ],
+            "displayFormat": {
+                "viewport": {
+                    "ymin": 33.576704373089,
+                    "xmin": -104.65111842571,
+                    "ymax": 47.4803552361,
+                    "xmax": -62.529536400325
+                },
+                "bkgdLayers": [
+                    {
+                        "layerKey": "Google Roadmap",
+                        "opacity": 1
+                    },
+                    {
+                        "layerKey": "Google Satellite",
+                        "opacity": 1
+                    },
+                    {
+                        "layerKey": "World Street Map (ESRI)",
+                        "opacity": 1
+                    },
+                    {
+                        "layerKey": "Satellite Imagery (ESRI)",
+                        "opacity": 1
+                    }
+                ],
+                "disableGeolocator": false,
+                "exclusiveLayers": true,
+                "viewDefinitions": [
+                    {
+                        "uid": "self",
+                        "highlightColor": "#ead1dc",
+                        "color": "#9900ff",
+                        "plot": {
+                            "locationId": 20601086,
+                            "titleId": 20601084,
+                            "descriptionColumns": [
+                                {
+                                    "tableColumnId": 20601085
+                                },
+                                {
+                                    "tableColumnId": 20601086
+                                }
+                            ]
+                        },
+                        "flyoutsNoLabel": false,
+                        "opacity": 1,
+                        "plotStyle": "point"
+                    }
+                ]
+            },
+            "grants": [
+                {
+                    "inherited": true,
+                    "type": "viewer",
+                    "flags": [
+                        "public"
+                    ]
+                }
+            ],
+            "license": {
+                "name": "Public Domain"
+            },
+            "metadata": {
+                "jsonQuery": {
+                    "where": {
+                        "children": [
+                            {
+                                "subColumn": "longitude",
+                                "columnFieldName": "location_1",
+                                "value": -106.99120631601,
+                                "operator": "GREATER_THAN"
+                            },
+                            {
+                                "subColumn": "longitude",
+                                "columnFieldName": "location_1",
+                                "value": -60.189448510026,
+                                "operator": "LESS_THAN"
+                            },
+                            {
+                                "subColumn": "latitude",
+                                "columnFieldName": "location_1",
+                                "value": 32.804279325144,
+                                "operator": "GREATER_THAN"
+                            },
+                            {
+                                "subColumn": "latitude",
+                                "columnFieldName": "location_1",
+                                "value": 48.252780284045,
+                                "operator": "LESS_THAN"
+                            }
+                        ],
+                        "operator": "AND"
+                    }
+                },
+                "availableDisplayTypes": [
+                    "map",
+                    "table",
+                    "fatrow",
+                    "page"
+                ],
+                "renderTypeConfig": {
+                    "visible": {
+                        "map": true
+                    }
+                }
+            },
+            "query": {
+                "filterCondition": {
+                    "type": "operator",
+                    "value": "AND",
+                    "children": [
+                        {
+                            "type": "operator",
+                            "value": "GREATER_THAN",
+                            "children": [
+                                {
+                                    "columnId": 241298757,
+                                    "type": "column",
+                                    "value": "LONGITUDE"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "-106.99120631601"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "LESS_THAN",
+                            "children": [
+                                {
+                                    "columnId": 241298757,
+                                    "type": "column",
+                                    "value": "LONGITUDE"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "-60.189448510026"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "GREATER_THAN",
+                            "children": [
+                                {
+                                    "columnId": 241298757,
+                                    "type": "column",
+                                    "value": "LATITUDE"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "32.804279325144"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "LESS_THAN",
+                            "children": [
+                                {
+                                    "columnId": 241298757,
+                                    "type": "column",
+                                    "value": "LATITUDE"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "48.252780284045"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "rights": [
+                "read"
+            ],
+            "tableAuthor": {
+                "id": "cvy9-n6sb",
+                "displayName": "Tyler Kleykamp",
+                "roleName": "administrator",
+                "screenName": "Tyler Kleykamp",
+                "rights": [
+                    "create_datasets",
+                    "edit_others_datasets",
+                    "edit_sdp",
+                    "edit_site_theme",
+                    "moderate_comments",
+                    "manage_users",
+                    "chown_datasets",
+                    "edit_nominations",
+                    "approve_nominations",
+                    "feature_items",
+                    "federations",
+                    "manage_stories",
+                    "manage_approval",
+                    "change_configurations",
+                    "view_domain",
+                    "view_others_datasets",
+                    "edit_pages",
+                    "create_pages",
+                    "view_goals",
+                    "view_dashboards",
+                    "edit_goals",
+                    "edit_dashboards",
+                    "create_dashboards",
+                    "manage_provenance",
+                    "create_story",
+                    "edit_story_title_desc",
+                    "create_story_copy",
+                    "delete_story",
+                    "manage_story_collaborators",
+                    "manage_story_visibility",
+                    "manage_story_public_version",
+                    "edit_story",
+                    "view_unpublished_story",
+                    "view_story",
+                    "view_all_dataset_status_logs",
+                    "use_data_connectors"
+                ]
+            },
+            "tags": [
+                "gas",
+                "generator"
+            ],
+            "viewFilters": {
+                "type": "operator",
+                "value": "AND",
+                "children": [
+                    {
+                        "type": "operator",
+                        "value": "GREATER_THAN",
+                        "children": [
+                            {
+                                "columnId": 241298757,
+                                "type": "column",
+                                "value": "LONGITUDE"
+                            },
+                            {
+                                "type": "literal",
+                                "value": "-106.99120631601"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "operator",
+                        "value": "LESS_THAN",
+                        "children": [
+                            {
+                                "columnId": 241298757,
+                                "type": "column",
+                                "value": "LONGITUDE"
+                            },
+                            {
+                                "type": "literal",
+                                "value": "-60.189448510026"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "operator",
+                        "value": "GREATER_THAN",
+                        "children": [
+                            {
+                                "columnId": 241298757,
+                                "type": "column",
+                                "value": "LATITUDE"
+                            },
+                            {
+                                "type": "literal",
+                                "value": "32.804279325144"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "operator",
+                        "value": "LESS_THAN",
+                        "children": [
+                            {
+                                "columnId": 241298757,
+                                "type": "column",
+                                "value": "LATITUDE"
+                            },
+                            {
+                                "type": "literal",
+                                "value": "48.252780284045"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "flags": [
+                "unsaved"
+            ]
+        }
+    },
+    "data": [
+        [
+            71,
+            "7E82723F-F128-4CDE-BD9C-37D2872AA21C",
+            71,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "444",
+            "MADISON SERVICE CENTER LLC",
+            "YES",
+            [
+                "{\"address\":\"608 POST ROAD\",\"city\":\"MADISON\",\"state\":\"\",\"zip\":\"06443-0000\"}",
+                "43.028056",
+                "-89.392154",
+                null,
+                false
+            ]
+        ],
+        [
+            38,
+            "4A78E96B-58CB-4BDD-B048-ADA3AF4E8C13",
+            38,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2073",
+            "GLENVILLE SERVICE CENTER INC",
+            "YES",
+            [
+                "{\"address\":\"2 RIVERSVILLE RD\",\"city\":\"GREENWICH\",\"state\":\"\",\"zip\":\"06830-0000\"}",
+                "41.038555",
+                "-73.664957",
+                null,
+                false
+            ]
+        ],
+        [
+            69,
+            "D9A40F9D-1960-4828-B00B-919C35F90738",
+            69,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2274",
+            "LONG RIDGE SERVICES",
+            "YES",
+            [
+                "{\"address\":\"1095 LONG RIDGE RD\",\"city\":\"STAMFORD\",\"state\":\"\",\"zip\":\"06903-0000\"}",
+                "41.10583",
+                "-73.568051",
+                null,
+                false
+            ]
+        ],
+        [
+            95,
+            "D1F98253-2F93-4061-A1EF-B3D9F2A87DCE",
+            95,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1032",
+            "TURNPIKE SHELL",
+            "YES",
+            [
+                "{\"address\":\"243 WEST AVE\",\"city\":\"STAMFORD\",\"state\":\"\",\"zip\":\"06902-5512\"}",
+                "41.045181",
+                "-73.558336",
+                null,
+                false
+            ]
+        ],
+        [
+            25,
+            "0B4A5189-6BF0-4B49-B23C-32A04E162D8B",
+            25,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "877",
+            "DAGOSTINO BROS FOREIGH CAR SERVICE",
+            "YES",
+            [
+                "{\"address\":\"316 LONG RIDGE RD\",\"city\":\"STAMFORD\",\"state\":\"\",\"zip\":\"06902-0000\"}",
+                "41.081334",
+                "-73.553989",
+                null,
+                false
+            ]
+        ],
+        [
+            1,
+            "9E51541A-5812-45EF-B929-0B46B0B32771",
+            1,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "685",
+            "A & K SERVICE",
+            "YES",
+            [
+                "{\"address\":\"524 NEWFIELD AVE\",\"city\":\"STAMFORD\",\"state\":\"\",\"zip\":\"06905-0000\"}",
+                "41.07775",
+                "-73.533888",
+                null,
+                false
+            ]
+        ],
+        [
+            18,
+            "7D28C805-C13C-4FFB-A938-5528B99F36AD",
+            18,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2557",
+            "BULLS BRIDGE COUNTRY STORE",
+            "YES",
+            [
+                "{\"address\":\"337 KENT RD\",\"city\":\"KENT\",\"state\":\"\",\"zip\":\"06757-1425\"}",
+                "41.674899",
+                "-73.507064",
+                null,
+                false
+            ]
+        ],
+        [
+            4,
+            "7FE29005-75A8-45C9-82AB-A4C5E45B7135",
+            4,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3812",
+            "ALL STAR ENERGY LLC",
+            "YES",
+            [
+                "{\"address\":\"133 PADANARAM RD\",\"city\":\"DANBURY\",\"state\":\"\",\"zip\":\"06811-2812\"}",
+                "41.437593",
+                "-73.498345",
+                null,
+                false
+            ]
+        ],
+        [
+            65,
+            "C6DBED9C-CD1E-4C9E-9410-FCC6D83EFCD0",
+            65,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1524",
+            "KEANS KORNER",
+            "YES",
+            [
+                "{\"address\":\"16 SOUTH AVE\",\"city\":\"NEW CANAAN\",\"state\":\"\",\"zip\":\"06840-5412\"}",
+                "41.146193",
+                "-73.493147",
+                null,
+                false
+            ]
+        ],
+        [
+            78,
+            "21444583-D482-4B11-9B72-7CB438F15CFD",
+            78,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "567",
+            "NEW CANAAN CHEVRON INC",
+            "YES",
+            [
+                "{\"address\":\"185 MAIN ST\",\"city\":\"NEW CANAAN\",\"state\":\"\",\"zip\":\"06840-0000\"}",
+                "41.144888",
+                "-73.491023",
+                null,
+                false
+            ]
+        ],
+        [
+            79,
+            "EA5964AC-7B89-4644-A62E-96CA99DBBBE7",
+            79,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1952",
+            "NEW FAIRFIELD AUTOMOTIVE INC",
+            "YES",
+            [
+                "{\"address\":\"104 STATE ROUTE 39\",\"city\":\"NEW FAIRFIELD\",\"state\":\"\",\"zip\":\"06812-0000\"}",
+                "41.470501",
+                "-73.471104",
+                null,
+                false
+            ]
+        ],
+        [
+            80,
+            "A6DE912F-A5A4-4903-A539-8A37E26B9138",
+            80,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3603",
+            "NEW MILFORD HESS",
+            "YES",
+            [
+                "{\"address\":\"20 DANBURY RD\",\"city\":\"NEW MILFORD\",\"state\":\"\",\"zip\":\"06776-3402\"}",
+                "41.573015",
+                "-73.415577",
+                null,
+                false
+            ]
+        ],
+        [
+            12,
+            "0B39EC8B-D8D3-4A36-970E-A0181D73D716",
+            12,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3670",
+            "BJ'S WHOLESALE CLUB GAS STATION",
+            "YES",
+            [
+                "{\"address\":\"110 FEDERAL RD\",\"city\":\"BROOKFIELD\",\"state\":\"\",\"zip\":\"06804-2515\"}",
+                "41.436464",
+                "-73.408794",
+                null,
+                false
+            ]
+        ],
+        [
+            30,
+            "25D7D3CF-B8BC-410F-80FC-FF0FAE7A9E8A",
+            30,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3669",
+            "EAST AVE GAS STATION",
+            "YES",
+            [
+                "{\"address\":\"227 EAST AVE\",\"city\":\"NORWALK\",\"state\":\"\",\"zip\":\"06855-1901\"}",
+                "41.10341",
+                "-73.404229",
+                null,
+                false
+            ]
+        ],
+        [
+            60,
+            "28FDFD14-0C6C-4CC4-9580-406D1849DC51",
+            60,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "632",
+            "HILARIOS VARIETY CORP",
+            "YES",
+            [
+                "{\"address\":\"131 MT PLEASANT RD\",\"city\":\"NEWTOWN\",\"state\":\"\",\"zip\":\"06470-0000\"}",
+                "41.416235",
+                "-73.360841",
+                null,
+                false
+            ]
+        ],
+        [
+            93,
+            "DC3A9494-BEC7-41D7-A62D-8FFABB568763",
+            93,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "628",
+            "SUGAR HILL LLC",
+            "YES",
+            [
+                "{\"address\":\"153 SUGAR ST\",\"city\":\"NEWTOWN\",\"state\":\"\",\"zip\":\"06470-0000\"}",
+                "41.38543",
+                "-73.331206",
+                null,
+                false
+            ]
+        ],
+        [
+            56,
+            "3317C7D7-D85A-4760-8CD6-968F91BFF2B8",
+            56,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "284",
+            "GREENFIELD HILL SERVICE STATION",
+            "YES",
+            [
+                "{\"address\":\"1865 BRONSON RD\",\"city\":\"FAIRFIELD\",\"state\":\"\",\"zip\":\"06824\"}",
+                "41.160705",
+                "-73.282656",
+                null,
+                false
+            ]
+        ],
+        [
+            68,
+            "D3157EDE-5EB0-453A-A09A-65C587622270",
+            68,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1450",
+            "KOZERAS GRASMERE SUNOCO",
+            "YES",
+            [
+                "{\"address\":\"500 GRASMERE AVENUE\",\"city\":\"FAIRFIELD\",\"state\":\"\",\"zip\":\"06824-0000\"}",
+                "41.158734",
+                "-73.243487",
+                null,
+                false
+            ]
+        ],
+        [
+            74,
+            "762EE781-D408-46D8-B45B-2F9EF601E531",
+            74,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3748",
+            "MASTER FOOD & FUELS",
+            "YES",
+            [
+                "{\"address\":\"2505 NORTH AVE\",\"city\":\"BRIDGEPORT\",\"state\":\"\",\"zip\":\"06604-2337\"}",
+                "41.177607",
+                "-73.217839",
+                null,
+                false
+            ]
+        ],
+        [
+            72,
+            "038622FD-05BB-4BBF-B46F-A113AE40FC96",
+            72,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3377",
+            "MAIN STREET DELI",
+            "YES",
+            [
+                "{\"address\":\"56 MAIN ST S\",\"city\":\"SOUTHBURY\",\"state\":\"\",\"zip\":\"06488-2215\"}",
+                "41.478555",
+                "-73.215771",
+                null,
+                false
+            ]
+        ],
+        [
+            94,
+            "1F832D1D-4353-4930-A36B-3D526EEE4DA8",
+            94,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1571",
+            "SUNNYRIDGE SUPERMARKET LLC",
+            "YES",
+            [
+                "{\"address\":\"82 MAIN ST S\",\"city\":\"BETHLEHEM\",\"state\":\"\",\"zip\":\"06751-0000\"}",
+                "41.634832",
+                "-73.208817",
+                null,
+                false
+            ]
+        ],
+        [
+            70,
+            "2FFD2F6D-9411-49BC-8302-CB39330BAF53",
+            70,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3749",
+            "MADISON FREEDOM FUELS",
+            "YES",
+            [
+                "{\"address\":\"1210 MADISON AVE\",\"city\":\"BRIDGEPORT\",\"state\":\"\",\"zip\":\"06606-4629\"}",
+                "41.197165",
+                "-73.207668",
+                null,
+                false
+            ]
+        ],
+        [
+            86,
+            "B76D5D4E-84C5-4593-AA48-27A190E2CC3F",
+            86,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3878",
+            "REEHA LLC",
+            "YES",
+            [
+                "{\"address\":\"199 WEST ST\",\"city\":\"LITCHFIELD\",\"state\":\"\",\"zip\":\"06759-3402\"}",
+                "41.746251",
+                "-73.198377",
+                null,
+                false
+            ]
+        ],
+        [
+            20,
+            "CFA6DB75-82F1-4AE8-BAB1-99E482A0AD67",
+            20,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3798",
+            "CITY GAS  ",
+            "YES",
+            [
+                "{\"address\":\"289 HUNTINGTON TURNPIKE\",\"city\":\"BRIDGEPORT\",\"state\":\"\",\"zip\":\"06610\"}",
+                "41.213253",
+                "-73.175706",
+                null,
+                false
+            ]
+        ],
+        [
+            36,
+            "4F892662-35DC-417C-A6A3-B4E4C47BE11A",
+            36,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "665",
+            "GEORGES NORFOLK GARAGE",
+            "YES",
+            [
+                "{\"address\":\"319 GREENWOODS RD EAST\",\"city\":\"NORFOLK\",\"state\":\"\",\"zip\":\"06058-0000\"}",
+                "41.988368",
+                "-73.171322",
+                null,
+                false
+            ]
+        ],
+        [
+            11,
+            "19764ADC-0FD0-4EFE-8887-880DF14DEFAE",
+            11,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2903",
+            "BIG DADDYS BREAKFAST AND DELI",
+            "YES",
+            [
+                "{\"address\":\"1633 MAIN ST N\",\"city\":\"WOODBURY\",\"state\":\"\",\"zip\":\"06798-1815\"}",
+                "41.595417",
+                "-73.169022",
+                null,
+                false
+            ]
+        ],
+        [
+            73,
+            "D297D5DB-2780-474B-8AF0-1F664BBAA8B1",
+            73,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1576",
+            "MASSEY FUEL",
+            "YES",
+            [
+                "{\"address\":\"40 HOLLISTER AVE\",\"city\":\"BRIDGEPORT\",\"state\":\"\",\"zip\":\"06607-1907\"}",
+                "41.175591",
+                "-73.159479",
+                null,
+                false
+            ]
+        ],
+        [
+            61,
+            "C9869D43-18B7-411E-B1D9-74C03A9C71B6",
+            61,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2904",
+            "IN & OUT MARKET",
+            "YES",
+            [
+                "{\"address\":\"385 ROOSEVELT DR\",\"city\":\"SEYMOUR\",\"state\":\"\",\"zip\":\"06483-2120\"}",
+                "41.367617",
+                "-73.14565",
+                null,
+                false
+            ]
+        ],
+        [
+            39,
+            "8745D8E0-75B5-4F1F-9002-78C3547E332D",
+            39,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3777",
+            "GLOBAL MONTELLO GROUP #738",
+            "YES",
+            [
+                "{\"address\":\"25 BRIDGEPORT AVE\",\"city\":\"MILFORD\",\"state\":\"\",\"zip\":\"06460-3930\"}",
+                "41.199882",
+                "-73.107719",
+                null,
+                false
+            ]
+        ],
+        [
+            13,
+            "EFC5EB05-528D-434D-9D52-DF98F472807D",
+            13,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1864",
+            "BORLA'S SERVICE STATION LLC",
+            "YES",
+            [
+                "{\"address\":\"826 NEW HARWINTON RD\",\"city\":\"TORRINGTON\",\"state\":\"\",\"zip\":\"06790-0000\"}",
+                "41.8014",
+                "-73.090852",
+                null,
+                false
+            ]
+        ],
+        [
+            29,
+            "7B341C63-2A44-40D2-BA23-F857C448B367",
+            29,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1389",
+            "DOUBLE R MOBIL",
+            "YES",
+            [
+                "{\"address\":\"1 OXFORD RD\",\"city\":\"OXFORD\",\"state\":\"\",\"zip\":\"06478-1927\"}",
+                "41.39964",
+                "-73.088691",
+                null,
+                false
+            ]
+        ],
+        [
+            75,
+            "AFE6F31B-4307-48BC-A782-FEB9FF8E3DB5",
+            75,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2004",
+            "MILO'S APPLE HOUSE ENTERPRISES LLC ",
+            "YES",
+            [
+                "{\"address\":\"1758 EAST MAIN ST\",\"city\":\"TORRINGTON\",\"state\":\"\",\"zip\":\"06790-0000\"}",
+                "41.821014",
+                "-73.08157",
+                null,
+                false
+            ]
+        ],
+        [
+            90,
+            "4A33DFBA-4153-4BB4-9B11-871C97E5BBD8",
+            90,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1967",
+            "SARDOS AUTOMOTIVE INC",
+            "YES",
+            [
+                "{\"address\":\"522 MAIN ST\",\"city\":\"ANSONIA\",\"state\":\"\",\"zip\":\"06401-0000\"}",
+                "41.336323",
+                "-73.076058",
+                null,
+                false
+            ]
+        ],
+        [
+            35,
+            "2F3BA394-9F45-444A-A182-F2C2BE36EC0F",
+            35,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "18",
+            "GABE'S SERVICE STATION",
+            "YES",
+            [
+                "{\"address\":\"100 N MAIN ST\",\"city\":\"BEACON FALLS\",\"state\":\"\",\"zip\":\"06403-1131\"}",
+                "41.445435",
+                "-73.065261",
+                null,
+                false
+            ]
+        ],
+        [
+            9,
+            "84C495FB-E3D9-4DB6-A0D4-C3B2A87B8BD9",
+            9,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3622",
+            "BEST OIL",
+            "YES",
+            [
+                "{\"address\":\"237 HUNTINGDON AVE\",\"city\":\"WATERBURY\",\"state\":\"\",\"zip\":\"06708-1462\"}",
+                "41.576443",
+                "-73.063262",
+                null,
+                false
+            ]
+        ],
+        [
+            26,
+            "701C7048-965E-40B9-8F72-A7292E526D2D",
+            26,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1831",
+            "DE RIU AND SONS INC",
+            "YES",
+            [
+                "{\"address\":\"1945 BALDWIN ST\",\"city\":\"WATERBURY\",\"state\":\"\",\"zip\":\"06706-2013\"}",
+                "41.527029",
+                "-73.038444",
+                null,
+                false
+            ]
+        ],
+        [
+            84,
+            "2EDAE70B-9F1A-4E83-98D1-C6D18EB453B2",
+            84,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3114",
+            "PILOT TRAVEL CENTER #255",
+            "YES",
+            [
+                "{\"address\":\"433 OLD GATE LN\",\"city\":\"MILFORD\",\"state\":\"\",\"zip\":\"06460-8626\"}",
+                "41.237555",
+                "-73.022853",
+                null,
+                false
+            ]
+        ],
+        [
+            88,
+            "719D0E12-1109-4AF7-8106-E73E4B952D78",
+            88,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2958",
+            "ROUTE 34 FUEL CORP",
+            "YES",
+            [
+                "{\"address\":\"217 DERBY AVE\",\"city\":\"ORANGE\",\"state\":\"\",\"zip\":\"06477-0000\"}",
+                "41.298695",
+                "-73.003937",
+                null,
+                false
+            ]
+        ],
+        [
+            83,
+            "521E6798-15C9-4328-A6CA-72552BB0A040",
+            83,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2925",
+            "OLDE BETHANY DEPOT LLC",
+            "YES",
+            [
+                "{\"address\":\"119 AMITY RD\",\"city\":\"BETHANY\",\"state\":\"\",\"zip\":\"06524-0000\"}",
+                "41.399073",
+                "-73.001061",
+                null,
+                false
+            ]
+        ],
+        [
+            17,
+            "6934AFAD-84BC-43E5-B70E-D009CBFBFFD3",
+            17,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3139",
+            "BRISTOL HESS",
+            "YES",
+            [
+                "{\"address\":\"34 FARMINGTON AVE\",\"city\":\"BRISTOL\",\"state\":\"\",\"zip\":\"06010-4213\"}",
+                "41.683141",
+                "-72.941124",
+                null,
+                false
+            ]
+        ],
+        [
+            22,
+            "5146F88B-78E2-4D54-B0D0-03C89E19C4F2",
+            22,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1955",
+            "CROWN OIL CO INC",
+            "YES",
+            [
+                "{\"address\":\"347 RIVERSIDE AVE\",\"city\":\"BRISTOL\",\"state\":\"\",\"zip\":\"06011-3258\"}",
+                "41.671306",
+                "-72.928767",
+                null,
+                false
+            ]
+        ],
+        [
+            76,
+            "DBA6BB3C-B7B9-499C-8450-898D71CFBF21",
+            76,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2340",
+            "MOBIL ON THE RUN",
+            "YES",
+            [
+                "{\"address\":\"330 MIDDLE ST\",\"city\":\"BRISTOL\",\"state\":\"\",\"zip\":\"06010-7439\"}",
+                "41.660395",
+                "-72.917644",
+                null,
+                false
+            ]
+        ],
+        [
+            16,
+            "BB359DAF-1E44-43F2-9D95-2B3FB2BBED92",
+            16,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "150",
+            "BOWMAN CORPORATION (THE)",
+            "YES",
+            [
+                "{\"address\":\"231 MAPLE AVE\",\"city\":\"CHESHIRE\",\"state\":\"\",\"zip\":\"06410-0000\"}",
+                "41.505588",
+                "-72.903568",
+                null,
+                false
+            ]
+        ],
+        [
+            14,
+            "3535222D-8B1A-476D-B534-5A55073C7475",
+            14,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "571",
+            "BOUSQUET'S SERVICE CENTER",
+            "YES",
+            [
+                "{\"address\":\"115 MAIN ST\",\"city\":\"NEW HAVEN\",\"state\":\"\",\"zip\":\"06513-0000\"}",
+                "41.314512",
+                "-72.903038",
+                null,
+                false
+            ]
+        ],
+        [
+            64,
+            "799A3313-7043-46F8-B403-DEA6CCDCF512",
+            64,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2563",
+            "KAE LLC",
+            "YES",
+            [
+                "{\"address\":\"2619 WHITNEY AVE\",\"city\":\"HAMDEN\",\"state\":\"\",\"zip\":\"06518-0000\"}",
+                "41.391668",
+                "-72.897884",
+                null,
+                false
+            ]
+        ],
+        [
+            89,
+            "59693457-BE5E-45FA-8408-EA290A19327A",
+            89,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3705",
+            "SAMS FOOD STORE",
+            "YES",
+            [
+                "{\"address\":\"262 FORBES AVE\",\"city\":\"NEW HAVEN\",\"state\":\"\",\"zip\":\"06512\"}",
+                "41.293427",
+                "-72.897414",
+                null,
+                false
+            ]
+        ],
+        [
+            31,
+            "81734FBA-7CD6-45C1-949D-0144C48CE9EF",
+            31,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1619",
+            "FORBES PREMIUM FUEL",
+            "YES",
+            [
+                "{\"address\":\"401 FORBES AVE\",\"city\":\"NEW HAVEN\",\"state\":\"\",\"zip\":\"06512-1619\"}",
+                "41.290386",
+                "-72.894677",
+                null,
+                false
+            ]
+        ],
+        [
+            55,
+            "2AFB94F5-D2F3-4DC0-B7E1-8C8CE5A07378",
+            55,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3621",
+            "GONDAL CORP",
+            "YES",
+            [
+                "{\"address\":\"1915 HARTFORD TPKE\",\"city\":\"NORTH HAVEN\",\"state\":\"\",\"zip\":\"06473-1031\"}",
+                "41.417215",
+                "-72.861652",
+                null,
+                false
+            ]
+        ],
+        [
+            32,
+            "B8627CE7-58B9-4B36-8783-B2CAAFD48BA7",
+            32,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2499",
+            "FORBES PREMIUM FUEL",
+            "YES",
+            [
+                "{\"address\":\"853 N HIGH ST\",\"city\":\"EAST HAVEN\",\"state\":\"\",\"zip\":\"06512-1534\"}",
+                "41.303331",
+                "-72.855246",
+                null,
+                false
+            ]
+        ],
+        [
+            82,
+            "B3EDCFBB-6DA1-49C5-9DEC-F7FC61C6F2BE",
+            82,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "644",
+            "NORTHFORD SUNOCO",
+            "YES",
+            [
+                "{\"address\":\"847 FOREST RD\",\"city\":\"NORTH BRANFORD\",\"state\":\"\",\"zip\":\"06472-0000\"}",
+                "41.39054",
+                "-72.792518",
+                null,
+                false
+            ]
+        ],
+        [
+            21,
+            "76E936AB-F90B-4334-A362-F2FB369C4024",
+            21,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2324",
+            "CITY GAS SOUTH MAIN",
+            "YES",
+            [
+                "{\"address\":\"453 S MAIN ST\",\"city\":\"NEW BRITAIN\",\"state\":\"\",\"zip\":\"06051-3517\"}",
+                "41.652521",
+                "-72.774499",
+                null,
+                false
+            ]
+        ],
+        [
+            81,
+            "3FC65FC4-8346-494C-8B30-0B87A5F23E50",
+            81,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2774",
+            "NORTH BRANFORD GAS ASSOCIATES",
+            "YES",
+            [
+                "{\"address\":\"1645 FOXON RD\",\"city\":\"NORTH BRANFORD\",\"state\":\"\",\"zip\":\"06471-1549\"}",
+                "41.327633",
+                "-72.767764",
+                null,
+                false
+            ]
+        ],
+        [
+            33,
+            "23609D77-BEB3-4BEF-B5CE-FB4242375A1F",
+            33,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1624",
+            "FOUR CORNER SERVICE STATION INC",
+            "YES",
+            [
+                "{\"address\":\"1500 ROUTE 80\",\"city\":\"GUILFORD\",\"state\":\"\",\"zip\":\"06437-0000\"}",
+                "41.350335",
+                "-72.728083",
+                null,
+                false
+            ]
+        ],
+        [
+            2,
+            "5C239C95-204E-48F7-A7E7-2C2657BD0BCC",
+            2,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1583",
+            "ADVANCED GAS CO INC",
+            "YES",
+            [
+                "{\"address\":\"129 WEST DUDLEY TOWN ROAD\",\"city\":\"BLOOMFIELD\",\"state\":\"\",\"zip\":\"06002-0000\"}",
+                "41.860906",
+                "-72.717332",
+                null,
+                false
+            ]
+        ],
+        [
+            3,
+            "B79C4819-66FD-4CFE-A043-8D7FAC3F4FA5",
+            3,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1537",
+            "AIRPORT GAS",
+            "YES",
+            [
+                "{\"address\":\"150 RAINBOW RD\",\"city\":\"EAST GRANBY\",\"state\":\"\",\"zip\":\"06026-9793\"}",
+                "41.928128",
+                "-72.708155",
+                null,
+                false
+            ]
+        ],
+        [
+            57,
+            "B90DB01B-772F-4420-AAA4-1D57771A4E20",
+            57,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2648",
+            "GUILFORD FOOD MART",
+            "YES",
+            [
+                "{\"address\":\"1148 BOSTON POST RD\",\"city\":\"GUILFORD\",\"state\":\"\",\"zip\":\"06437-0000\"}",
+                "41.287593",
+                "-72.688037",
+                null,
+                false
+            ]
+        ],
+        [
+            34,
+            "60772C1B-381E-4AEF-BAE9-E7B5FEF0C415",
+            34,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1666",
+            "FRANKS SERVICE CENTER",
+            "YES",
+            [
+                "{\"address\":\"159 MAIN ST EXT\",\"city\":\"MIDDLETOWN\",\"state\":\"\",\"zip\":\"06457-0000\"}",
+                "41.552093",
+                "-72.643766",
+                null,
+                false
+            ]
+        ],
+        [
+            19,
+            "F37586B5-AE75-4510-BC67-9581056F318F",
+            19,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2598",
+            "CHUCKS AUTOMOTIVE LLC",
+            "YES",
+            [
+                "{\"address\":\"653 BURNSIDE AVE\",\"city\":\"EAST HARTFORD\",\"state\":\"\",\"zip\":\"06108-0000\"}",
+                "41.779108",
+                "-72.611404",
+                null,
+                false
+            ]
+        ],
+        [
+            87,
+            "BDAAC2FE-D76A-4B48-B340-1EF4011E828D",
+            87,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "832",
+            "RICHARDS SERVICE",
+            "YES",
+            [
+                "{\"address\":\"890 MAIN ST\",\"city\":\"SOUTH GLASTONBURY\",\"state\":\"\",\"zip\":\"06073-2220\"}",
+                "41.666406",
+                "-72.602856",
+                null,
+                false
+            ]
+        ],
+        [
+            8,
+            "D4A1FD94-2992-4F88-BEAC-25B9DDC966DF",
+            8,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3095",
+            "ATKR LLC",
+            "YES",
+            [
+                "{\"address\":\"561 SULLIVAN AVE\",\"city\":\"SOUTH WINDSOR\",\"state\":\"\",\"zip\":\"06074-1952\"}",
+                "41.851037",
+                "-72.578972",
+                null,
+                false
+            ]
+        ],
+        [
+            85,
+            "7F4EB1E0-620F-4C7C-AD31-71088D4D1FB7",
+            85,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1781",
+            "PORTLAND CITGO",
+            "YES",
+            [
+                "{\"address\":\"1633 PORTLAND COBALT RD\",\"city\":\"PORTLAND\",\"state\":\"\",\"zip\":\"06480-0000\"}",
+                "41.561586",
+                "-72.57585",
+                null,
+                false
+            ]
+        ],
+        [
+            67,
+            "3E4A0424-0937-4298-87F0-AC16260DBA2E",
+            67,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "433",
+            "KILLINGWORTH GARAGE INC",
+            "YES",
+            [
+                "{\"address\":\"319 ROUTE 81\",\"city\":\"KILLINGWORTH\",\"state\":\"\",\"zip\":\"06419-0000\"}",
+                "41.368262",
+                "-72.565411",
+                null,
+                false
+            ]
+        ],
+        [
+            62,
+            "8678866C-9489-4CFF-B9FD-A65C659DB968",
+            62,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3872",
+            "JDS GASWAY INC",
+            "YES",
+            [
+                "{\"address\":\"1016 KILLINGWORTH RD\",\"city\":\"HIGGANUM\",\"state\":\"\",\"zip\":\"06441-4451\"}",
+                "41.428756",
+                "-72.560469",
+                null,
+                false
+            ]
+        ],
+        [
+            7,
+            "73896DFE-02BE-4690-8211-0E8224657726",
+            7,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "1277",
+            "ARCOUETTE AUTO CENTER INC",
+            "YES",
+            [
+                "{\"address\":\"299 NORTH MAPLE ST\",\"city\":\"ENFIELD\",\"state\":\"\",\"zip\":\"06082-0000\"}",
+                "42.022356",
+                "-72.54274",
+                null,
+                false
+            ]
+        ],
+        [
+            91,
+            "FE19962F-DB49-4A03-A00B-D7FACA26CCC8",
+            91,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2231",
+            "SHELL FOOD MART",
+            "YES",
+            [
+                "{\"address\":\"2088 HEBRON AVE\",\"city\":\"GLASTONBURY\",\"state\":\"\",\"zip\":\"06033-2636\"}",
+                "41.712724",
+                "-72.5277",
+                null,
+                false
+            ]
+        ],
+        [
+            63,
+            "C6F2A125-5CB1-4289-B343-D175F227CBCC",
+            63,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2446",
+            "JON'S - MAL'S GAS LLC",
+            "YES",
+            [
+                "{\"address\":\"212 EAST MAIN ST\",\"city\":\"CLINTON\",\"state\":\"\",\"zip\":\"06413-0000\"}",
+                "41.272829",
+                "-72.507141",
+                null,
+                false
+            ]
+        ],
+        [
+            23,
+            "926A0BDF-24D3-43AD-B92F-BB97C681AA1A",
+            23,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3688",
+            "CUMBERLAND FARMS #4755",
+            "YES",
+            [
+                "{\"address\":\"333 TALCOTTVILLE RD\",\"city\":\"VERNON ROCKVILLE\",\"state\":\"\",\"zip\":\"06066-4054\"}",
+                "41.841626",
+                "-72.489076",
+                null,
+                false
+            ]
+        ],
+        [
+            96,
+            "E0CFF668-3303-42F6-80F0-830F01094EEF",
+            96,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "162",
+            "WEST MAIN STREET SERVICE INC",
+            "YES",
+            [
+                "{\"address\":\"100 WEST MAIN ST\",\"city\":\"CHESTER\",\"state\":\"\",\"zip\":\"06412-0000\"}",
+                "41.398969",
+                "-72.464802",
+                null,
+                false
+            ]
+        ],
+        [
+            5,
+            "2882C7CE-987B-4A50-968B-566F3BFE9172",
+            5,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2460",
+            "ALL-PRO AUTOMOTIVE",
+            "YES",
+            [
+                "{\"address\":\"147 BOSTON POST RD\",\"city\":\"OLD LYME\",\"state\":\"\",\"zip\":\"06371-0000\"}",
+                "41.346221",
+                "-72.303093",
+                null,
+                false
+            ]
+        ],
+        [
+            24,
+            "980848D6-1E1A-4C7C-AD20-BAD580B38631",
+            24,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3651",
+            "CUMBERLAND FARMS INC",
+            "YES",
+            [
+                "{\"address\":\"1660 STORRS RD\",\"city\":\"STORRS MANSFIELD\",\"state\":\"\",\"zip\":\"06268-1253\"}",
+                "41.827659",
+                "-72.266824",
+                null,
+                false
+            ]
+        ],
+        [
+            58,
+            "717C8FDA-82A7-4A7F-A913-55ED2FB89C5F",
+            58,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "636",
+            "GUY'S OIL SERVICE STATION INC",
+            "YES",
+            [
+                "{\"address\":\"87 WEST MAIN ST\",\"city\":\"NIANTIC\",\"state\":\"\",\"zip\":\"06357-0000\"}",
+                "41.320221",
+                "-72.214345",
+                null,
+                false
+            ]
+        ],
+        [
+            10,
+            "A74A28DE-7EA0-4DD5-B39C-8D4ADDFEA9A1",
+            10,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "3838",
+            "BESTWAY FUEL",
+            "YES",
+            [
+                "{\"address\":\"1226 OLD COLCHESTER RD\",\"city\":\"OAKDALE\",\"state\":\"\",\"zip\":\"06370-1672\"}",
+                "41.47597",
+                "-72.190864",
+                null,
+                false
+            ]
+        ],
+        [
+            92,
+            "6A56B0A5-CF22-4738-B193-96692DC9C660",
+            92,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "526",
+            "SKIS GARAGE INC",
+            "YES",
+            [
+                "{\"address\":\"996 NORWICH NEW LONDON TPKE\",\"city\":\"UNCASVILLE\",\"state\":\"\",\"zip\":\"06383-0000\"}",
+                "41.452896",
+                "-72.106965",
+                null,
+                false
+            ]
+        ],
+        [
+            15,
+            "B33DBD41-FCCF-4893-8368-E90534E37B1F",
+            15,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "234",
+            "BOWENS GARAGE INC",
+            "YES",
+            [
+                "{\"address\":\"184 EASTFORD RD\",\"city\":\"EASTFORD\",\"state\":\"\",\"zip\":\"06242-0008\"}",
+                "41.901712",
+                "-72.080002",
+                null,
+                false
+            ]
+        ],
+        [
+            77,
+            "F99AC605-1B88-4948-A6D8-00A33C501955",
+            77,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "768",
+            "MORANS SERVICE CENTER",
+            "YES",
+            [
+                "{\"address\":\"212 ROUTE 2\",\"city\":\"PRESTON\",\"state\":\"\",\"zip\":\"06365-8523\"}",
+                "41.493547",
+                "-72.025516",
+                null,
+                false
+            ]
+        ],
+        [
+            59,
+            "03D9B8AC-638C-406C-81A9-4C6EB3DAA229",
+            59,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "2806",
+            "HAJIR LLC",
+            "YES",
+            [
+                "{\"address\":\"363 RTE 165\",\"city\":\"PRESTON\",\"state\":\"\",\"zip\":\"06365-0000\"}",
+                "41.528656",
+                "-71.980194",
+                null,
+                false
+            ]
+        ],
+        [
+            66,
+            "FA9D5B42-E7B3-4B46-A10B-256285ABC216",
+            66,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "775",
+            "KELLYS TIRE INC",
+            "YES",
+            [
+                "{\"address\":\"306 SCHOOL ST\",\"city\":\"PUTNAM\",\"state\":\"\",\"zip\":\"06260-0000\"}",
+                "41.921718",
+                "-71.900974",
+                null,
+                false
+            ]
+        ],
+        [
+            6,
+            "8CE924A4-357F-4780-B65F-6386D0FA1410",
+            6,
+            1454681982,
+            "875279",
+            1454682043,
+            "875279",
+            null,
+            "792",
+            "AMERICAN AUTO STOP",
+            "YES",
+            [
+                "{\"address\":\"273 CLARKS FALLS RD\",\"city\":\"NORTH STONINGTON\",\"state\":\"\",\"zip\":\"06359-1406\"}",
+                "41.442495",
+                "-71.801646",
+                null,
+                false
+            ]
+        ]
+    ]
+}

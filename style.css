@@ -1,0 +1,52 @@
+/* Style Sheet */
+
+#map {
+    height: 100%;
+    width: 640px;
+    height: 480px;
+    margin: 0 0 0 15%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    padding: 0;
+    left: 0;
+    right: 0;
+    background-color: #f4e2d3;
+	text-align: center;
+	color: #600000;
+}
+
+/* Toggle Buttons */
+.toggle-button { background-color: white; margin: 5px 0; border-radius: 20px; border: 2px solid #D0D0D0; height: 24px; cursor: pointer; width: 50px; position: relative; display: inline-block; user-select: none; -webkit-user-select: none; -ms-user-select: none; -moz-user-select: none; }
+.toggle-button button { cursor: pointer; outline: 0; display:block; position: absolute; left: 0; top: 0; border-radius: 100%; width: 30px; height: 30px; background-color: white; float: left; margin: -3px 0 0 -3px; border: 2px solid #D0D0D0; transition: left 0.3s; }
+.toggle-button-selected { background-color: #83B152; border: 2px solid #7DA652; }
+.toggle-button-selected button { left: 26px; top: 0; margin: 0; border: none; width: 24px; height: 24px; box-shadow: 0 0 4px rgba(0,0,0,0.1); }
+
+/*div table for the buttons*/
+#buttontable {
+	float: right;
+	display: block;
+	margin: 2% 15% 0 0;
+	text-align: left;
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+#h1{
+	margin: auto;
+	text-align: center;
+}
+
+
+#map{
+	border: 5px groove black;	
+}
+
+#sources{
+	margin: auto;
+	width: 40%;
+	text-align: left;
+}
